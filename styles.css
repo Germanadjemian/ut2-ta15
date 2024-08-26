@@ -1,0 +1,27 @@
+#eliminar {
+    background-color: #e74c3c; /* Rojo vibrante */
+    color: white; /* Texto blanco para contraste */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Esquinas redondeadas */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    font-weight: bold; /* Texto en negrita */
+    cursor: pointer; /* Cambia el cursor a un dedo al pasar por encima */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transiciones suaves */
+}
+
+#eliminar:hover {
+    background-color: #c0392b; /* Rojo un poco más oscuro al pasar el mouse */
+    transform: scale(1.05); /* Aumenta un poco el tamaño al pasar el mouse */
+    border: 2px solid black;
+}
+
+#eliminar:active {
+    background-color: #a93226; /* Rojo más oscuro al hacer clic */
+    transform: scale(1); /* Vuelve al tamaño original al hacer clic */
+}
+
+#eliminar:focus {
+    outline: none; /* Sin borde de enfoque */
+    box-shadow: 0 0 0 4px rgba(231, 76, 60, 0.4); /* Sombra alrededor del botón al enfocar */
+}
